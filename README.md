@@ -6,30 +6,34 @@ Accepted as a poster at [Continual Learning Workshop](https://sites.google.com/v
 
 ## Table of Contents
 - [Abstract](#abstract)
-- [Pipeline Overview](#pipeline)
-- [3D Point Cloud MTDA Results](#results)
-- [Repo Structure](#repo)
-- [How to use the code](#code)
+- [Pipeline Overview](#pipeline-overview)
+- [3D Point Cloud MTDA Results](#3d-point-cloud-mtda-results)
+- [Repo Structure](#repo-structure)
+- [How to use the code](#running-the-code)
 
 ## Abstract
-<a href="abstract"></a>
+<a name="abstract"></a>
+
 Unsupervised domain adaptation (UDA) addresses the problem of distribution shift between the unlabelled target domain and labelled source domain. While the single target domain adaptation (STDA) is well studied in the literature for both 2D and 3D vision tasks, multi-target domain adaptation (MTDA) is barely explored for 3D data despite its wide real-world applications such as autonomous driving systems for various geographical and climatic conditions. We establish an MTDA baseline for 3D point cloud data by proposing to mix the feature representations from all domains together to achieve better domain adaptation performance by an ensemble average, which we call **M**ixup **Ens**emble **A**verage or **MEnsA**. With the mixed representation, we use a domain classifier to improve at distinguishing the feature representations of source domain from those of target domains in a shared latent space. In empirical validations on the challenging PointDA-10 dataset, we showcase a clear benefit of our simple method over previous unsupervised STDA and MTDA methods by large margins (up to 17.10% and 4.76% on averaged over all domain shifts).
 
+<a name="pipeline"></a>
+
 ## Pipeline Overview
-<a href="pipeline"></a>
 ![image](assets/overview.png)
 
 ## Proposed Mixup Schema
 ![mixup](assets/mtda_schema.png)
 
-<a href = "results"></a>
+<a name = "results"></a>
+
 ## 3D Point Cloud MTDA Results 
 ![results](assets/results.png)
 
 ## Ablation wrt $\mathcal{L}$
 ![ablation](assets/abln.png)
 
-<a href="repo"></a>
+<a name="repo"></a>
+
 ## Repo Structure
 ```
 .
@@ -68,7 +72,8 @@ To download the dataset, and prepare the folder structure. Simplya run,
 bash prepare_dataset.sh
 ```
 ## Running the code
-<a href="code"></a>
+<a name="code"></a>
+
 To run the code, for training with default parameters, simply run
 
 ```bash
