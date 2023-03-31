@@ -1,0 +1,8 @@
+/models/*net/
+/data/*
+/*.pth
+*.pyc
+*.npy
+pycache/*
+.DS_Store
+.gitignore

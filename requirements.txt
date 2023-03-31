@@ -1,0 +1,11 @@
+tqdm
+einops
+ninja
+numpy 
+pandas
+matplotlib
+seaborn
+h5py
+tensorboard
+pyyaml
+gdown
