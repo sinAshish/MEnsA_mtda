@@ -122,7 +122,7 @@ python3 main.py -s <SOURCE DATASET>\
     ```bash
     CUDA_VISIBLE_DEVICES=<GPU ID> python3 main.py -g <GPU ID> -s <SOURCE DATASET> -mixup 
     ```
-- Pre-built [docker image](docker pull sinashish/mtda)
+- Pre-built [docker image](https://hub.docker.com/r/sinashish/mtda)
     ```bash
     # pull the container from docker hub
     docker pull sinashish/mtda
