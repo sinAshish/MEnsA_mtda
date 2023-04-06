@@ -1,8 +1,8 @@
 # MEnsA: Mix-up Ensemble Average for UnsupervisedMulti Target Domain Adaptation on 3D Point Clouds
 
-[Ashish Sinha](https://sinashish.github.io) | [Jonghyun Choi](https://ppolon.github.io) | [Paper](#) | [Arxiv](#) 
+[Ashish Sinha](https://sinashish.github.io) | [Jonghyun Choi](https://ppolon.github.io) | [Paper](#) | [Arxiv](https://arxiv.org/abs/2304.01554) 
 
-Accepted as a poster at [Continual Learning Workshop](https://sites.google.com/view/clvision2023/overview?authuser=0), [CVPR 2023](https://cvpr.thecvf.com/)
+Accepted at [Workshop on Learning with Limited Labelled Data](https://sites.google.com/view/l3d-ivu-2023/overview) (CVPR2023)
 
 ## Table of Contents
 - [Abstract](#abstract)
@@ -10,6 +10,7 @@ Accepted as a poster at [Continual Learning Workshop](https://sites.google.com/v
 - [3D Point Cloud MTDA Results](#3d-point-cloud-mtda-results)
 - [Repo Structure](#repo-structure)
 - [How to use the code](#running-the-code)
+- [Cite](#cite)
 
 ## Abstract
 <a name="abstract"></a>
@@ -117,14 +118,37 @@ python3 main.py -s <SOURCE DATASET>\
     ```bash
     docker run -it --gpus all -v </path/to/dataset/>:/data mtda:pc
     ```
-- Run the code inside the container
+- Run the code inside the container using
     ```bash
     CUDA_VISIBLE_DEVICES=<GPU ID> python3 main.py -g <GPU ID> -s <SOURCE DATASET> -mixup 
     ```
-
+- Pre-built [docker image](docker pull sinashish/mtda)
+    ```bash
+    # pull the container from docker hub
+    docker pull sinashish/mtda
+    # execute the container as usual
+    docker run -it --gpus all -v </path/to/dataset/>:/data sinashish/mtda:latest
+    ```
+<!--
 ## Pretrained Models
 
 The pretrained models for the experiments are available [here](https://drive.google.com/drive/folders/183RIEz7IpesWSk39rCBIbrg4Wn1Yj62L?usp=sharing).
+-->
+
+<a name="cite"></a>
+## Cite
+
+If you use any part of the code or find this work useful, please consider citing our work:
+```bibtex
+@misc{sinha2023mensa,
+      title={MEnsA: Mix-up Ensemble Average for Unsupervised Multi Target Domain Adaptation on 3D Point Clouds}, 
+      author={Ashish Sinha and Jonghyun Choi},
+      year={2023},
+      eprint={2304.01554},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## Acknowledgements
 
