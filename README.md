@@ -1,6 +1,6 @@
 # MEnsA: Mix-up Ensemble Average for UnsupervisedMulti Target Domain Adaptation on 3D Point Clouds
 
-[Ashish Sinha](https://sinashish.github.io) | [Jonghyun Choi](https://ppolon.github.io) | [Paper](#) | [Arxiv](https://arxiv.org/abs/2304.01554) 
+[Ashish Sinha](https://sinashish.github.io) | [Jonghyun Choi](https://ppolon.github.io) | [Paper](#) | [Arxiv](https://arxiv.org/abs/2304.01554) | [![ZENODO](https://zenodo.org/badge/622009986.svg)](https://zenodo.org/badge/latestdoi/622009986)
 
 Accepted at [Workshop on Learning with Limited Labelled Data](https://sites.google.com/view/l3d-ivu-2023/overview) (CVPR2023)
 
