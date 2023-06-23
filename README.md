@@ -1,10 +1,10 @@
 # MEnsA: Mix-up Ensemble Average for UnsupervisedMulti Target Domain Adaptation on 3D Point Clouds
 
-[Ashish Sinha](https://sinashish.github.io) | [Jonghyun Choi](https://ppolon.github.io) | [Paper](#) | [Arxiv](https://arxiv.org/abs/2304.01554) | [![ZENODO](https://zenodo.org/badge/622009986.svg)](https://zenodo.org/badge/latestdoi/622009986)
+[Ashish Sinha](https://sinashish.github.io) | [Jonghyun Choi](https://ppolon.github.io) | [Paper](https://openaccess.thecvf.com/content/CVPR2023W/L3D-IVU/papers/Sinha_MEnsA_Mix-Up_Ensemble_Average_for_Unsupervised_Multi_Target_Domain_Adaptation_CVPRW_2023_paper.pdf) | [Arxiv](https://arxiv.org/abs/2304.01554) | [![ZENODO](https://zenodo.org/badge/622009986.svg)](https://zenodo.org/badge/latestdoi/622009986)
 
-Accepted at [Workshop on Learning with Limited Labelled Data](https://sites.google.com/view/l3d-ivu-2023/overview) (CVPR2023)
+📣 Accepted at [Workshop on Learning with Limited Labelled Data](https://sites.google.com/view/l3d-ivu-2023/overview) (CVPR2023)
 
-## Table of Contents
+## 📑 Table of Contents
 - [Abstract](#abstract)
 - [Pipeline Overview](#pipeline-overview)
 - [3D Point Cloud MTDA Results](#3d-point-cloud-mtda-results)
@@ -140,13 +140,13 @@ The pretrained models for the experiments are available [here](https://drive.goo
 
 If you use any part of the code or find this work useful, please consider citing our work:
 ```bibtex
-@misc{sinha2023mensa,
-      title={MEnsA: Mix-up Ensemble Average for Unsupervised Multi Target Domain Adaptation on 3D Point Clouds}, 
-      author={Ashish Sinha and Jonghyun Choi},
-      year={2023},
-      eprint={2304.01554},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Sinha_2023_CVPR,
+    author    = {Sinha, Ashish and Choi, Jonghyun},
+    title     = {MEnsA: Mix-Up Ensemble Average for Unsupervised Multi Target Domain Adaptation on 3D Point Clouds},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {4766-4776}
 }
 ```
 
